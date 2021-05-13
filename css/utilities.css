@@ -1,0 +1,53 @@
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform:uppercase;
+    transition: all .2s ease;
+}
+
+.btn-primary{
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.btn-primary:hover{
+    background: transparent;
+    color: var(--primary);
+    border:2px solid;
+}
+
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-secondary:hover{
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.flex-1{
+    flex: 1;
+}
+
